@@ -25,20 +25,20 @@ section > ol > li{
     width: 230px;
     margin: 20px;
 }
-ul li{
+ ul li{
     list-style: none;
     
-    
+     
 }
  ol li ul li:last-child {
     text-align: center;
     
 }
-/*
+
 ol li ul li:first-child {
     text-align: center;
     
-} */
+}  
 
 
 
@@ -49,13 +49,13 @@ img{
     height: 270px;
 }
 
- header, section > ol{ 
+  header, section > ol{ 
    
     width: 768px;
     padding: 10px;
    
     
- }
+ } 
  .btn{
     
     margin: 5px;
@@ -66,5 +66,9 @@ img{
 
 
  }
+
+
+
+
  
     
