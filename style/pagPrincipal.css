@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    line-height:0;
+}
+/*body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+
+}*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    min-height: 90px;
+    align-items: center;
+    padding: 15px;      
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 6000;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.headerLink{
+    text-decoration: none;
+    color: black;
+    
+    padding-right: 150px;
+}
+
+nav{
+    display: flex;
+    padding-right:100px;
+}
+
+.box{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.box img{
+    width: 70%;
+}
+
+.perfumesContainer{
+    width: 90%;
+    margin: 0px 20px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ 
+
+
+/*section{
+    padding: 20px;
+   
+}
+section >  ol {
+    display: flex;
+    list-style: none;
+
+} 
+section > ol > li{
+    width: 230px;
+    margin: 20px;
+}
+ul li{
+    list-style: none;
+    
+    
+}
+ ol li ul li:last-child {
+    text-align: center;
+    
+}
+
+ol li ul li:first-child {
+    text-align: center;
+    
+} */
+
+
+ .btn{
+    
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+ }
+
+
+
+    
+ @media (max-width : 700px)
+ {
+     header{
+         flex-direction: column;
+     }
+     nav{
+         padding: 10px 0px 0px 30px;
+     }
+ 
+     /*#galeriaPerfumes{
+         padding: 20px;
+     }*/
+    .perfumesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+ }
