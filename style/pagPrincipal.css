@@ -18,7 +18,8 @@ header{
     background-color: #FFFFFF;
     min-height: 90px;
     align-items: center;
-    padding: 15px;      
+    padding: 15px;
+    overflow: hidden;      
 }
 
 .logo img{
@@ -43,12 +44,12 @@ nav a:hover{
     text-decoration: none;
     color: black;
     
-    padding-right: 150px;
+    margin-right: 150px;
 }
 
 nav{
     display: flex;
-    padding-right:100px;
+    padding-right:10px;
 }
 
 .box{
@@ -118,13 +119,11 @@ ol li ul li:first-child {
      header{
          flex-direction: column;
      }
-     nav{
-         padding: 10px 0px 0px 30px;
-     }
- 
-     /*#galeriaPerfumes{
-         padding: 20px;
-     }*/
+
+    nav a{
+        padding: 3px;
+
+    }
     .perfumesContainer{
         grid-template-columns: repeat(3,1fr);
     }

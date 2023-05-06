@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    min-height: 90px;
+    align-items: center;
+    padding: 15px;      
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 6000;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.headerLink{
+    text-decoration: none;
+    color: black;
+    
+    margin-right: 150px;
+}
+
+nav{
+    display: flex;
+    padding-right:100px;
+}
