@@ -21,49 +21,66 @@
 
     <header>
         <a href="#" class="logo">
-          <img src="./img/logooly.png" alt="logoOly" />
+            <img src="./img/logooly.png" alt="logoOly" />
         </a>
         <nav>
-          <a href="pagPrincipal.html" class="headerLink">Inicio</a>
-          <a href="pagPrincipal.html" class="headerLink">Productos</a>
-          <a href="pregFrecuentes.html" class="headerLink">Preguntas frecuentes</a>
-          <a href="contacto.html" class="headerLink">Contacto</a>
+            <a href="pagPrincipal.html" class="headerLink">Inicio</a>
+            <a href="pagPrincipal.html" class="headerLink">Productos</a>
+            <a href="pregFrecuentes.html" class="headerLink">Preguntas frecuentes</a>
+            <a href="contacto.html" class="headerLink">Contacto</a>
         </nav>
-      </header>
+    </header>
 
     <div class="container">
         <h1>CONTACTO</h1>
         <form action="">
             <p>Complete la información y recibiremos su consulta </p>
-            <div class="form-group">
-                <label for="name">Nombre<span style="color:#ffa1a1;">&#42;</span></label>
-                <input type="text" name="nombre_ingresado" id="name" class="form-control " placeholder="Nombre">
-            </div>
-            <div class="form-group">
-                <label for="name">Apellido<span style="color:#ffa1a1;">&#42;</span></label>
-                <input type="text" name="apellido_ingresado" id="name" class="form-control" placeholder="Apellido">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                        <label for="name">Nombre<span style="color:#ffa1a1;">&#42;</span></label>
+                        <input autofocus type="text" name="nombre_ingresado" id="name" class="form-control "
+                            placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                        <label for="name">Apellido<span style="color:#ffa1a1;">&#42;</span></label>
+                        <input type="text" name="apellido_ingresado" id="name" class="form-control"
+                            placeholder="Apellido">
+                    </div>
+                </div>
             </div>
             <div class="form-group">
                 <label for="email">Correo electr&oacute;nico<span style="color:#ffa1a1;">&#42;</span></label>
                 <input type="text" name="email_ingresado" id="email" placeholder="email@gmail.com" class="form-control">
             </div>
-            <div class="form-group">
-                <label for="Numero">N&#176; de compra</label>
-                <input type="text" name="N&uacute;mero_ingresado" id="Numero" class="form-control" placeholder="N&uacute;mero de compra en caso de ser necesario">
-            </div>
-            <div class="form-group">
-                <label for="asunto">Asunto<span style="color:#ffa1a1;">&#42;</span></label>
-                <input type="text" name="asunto_ingresado" id="asunto" class="form-control" placeholder="Consultas generales, info de productos, reclamos...">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                        <label for="Numero">N&#176; de compra</label>
+                        <input type="text" name="N&uacute;mero_ingresado" id="Numero" class="form-control"
+                            placeholder="N&uacute;mero de compra en caso de ser necesario">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="form-group">
+                        <label for="asunto">Asunto<span style="color:#ffa1a1;">&#42;</span></label>
+                        <input type="text" name="asunto_ingresado" id="asunto" class="form-control"
+                            placeholder="Consultas generales, info de productos, reclamos...">
+                    </div>
+                </div>
             </div>
             <div class="form-group">
                 <label for="email">Descripci&oacute;n de la consulta</label>
-                <textarea col="10" row="15" placeholder="Comenta detalladamente la consulta" class="form-control" name="" id="" cols="30" rows="5"></textarea>
+                <textarea col="10" row="15" placeholder="Comenta detalladamente la consulta" class="form-control"
+                    name="" id="" cols="30" rows="5"></textarea>
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar" class="form-control btn btn-light">
-               
+
             </div>
-            
+
         </form>
     </div>
 </body>
