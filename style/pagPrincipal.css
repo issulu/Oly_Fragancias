@@ -26,9 +26,11 @@ header{
     height: 50px;
 }
 
+
 .logo{
     display: flex;
     align-items: center;
+    
 }
 
 nav a{
@@ -43,13 +45,14 @@ nav a:hover{
 .headerLink{
     text-decoration: none;
     color: black;
+    padding-right: 90px;
     
-    margin-right: 150px;
+    /*margin-right: 150px;*/
 }
 
 nav{
     display: flex;
-    padding-right:10px;
+    padding-right:200px;
 }
 
 .box{
@@ -72,7 +75,13 @@ nav{
     padding-bottom: 20px;
 }
 
- 
+.nombrePerfume{
+    
+}
+
+.marca{
+    font-weight: bold;
+}
 
 
 /*section{
@@ -111,10 +120,20 @@ ol li ul li:first-child {
     text-decoration: none;
  }
 
+@media (max-width: 700px) /*Dispositivos Moviles*/
+{
+    header{
+        flex-direction: column;
+    }
 
+    .perfumesContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
 
     
- @media (max-width : 700px)
+ @media (max-width : 1024px) /*Pantallas pequeñas o laptops*/
  {
      header{
          flex-direction: column;
@@ -127,4 +146,18 @@ ol li ul li:first-child {
     .perfumesContainer{
         grid-template-columns: repeat(3,1fr);
     }
+
+    nav{
+        padding-right: 10px;
+    }
+
+    .headerLink
+    {
+        padding-right: 10px;
+    }
  }
+
+ @media (max-width: 1200px) /*Monitores PC*/
+{
+
+}
