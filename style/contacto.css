@@ -5,15 +5,18 @@ header {
     min-height: 90px;
     align-items: center;
     padding: 15px;
+    overflow: hidden;      
 }
 
 .logo img {
     height: 50px;
 }
 
-.logo {
+
+.logo{
     display: flex;
     align-items: center;
+    
 }
 
 nav a {
@@ -21,15 +24,16 @@ nav a {
     padding-right: 10px;
 }
 
-nav a:hover {
-    color: #FDD1D1;
+nav a:hover{
+    color: gold;
 }
 
 .headerLink {
     text-decoration: none;
     color: black;
-
-    margin-right: 150px;
+    padding-right: 90px;
+    
+    /*margin-right: 150px;*/
 }
 
 input[type=submit] {
@@ -53,7 +57,7 @@ input[type=submit]:hover{
 
 nav {
     display: flex;
-    padding-right: 100px;
+    padding-right:200px;
 }
 
 
@@ -65,4 +69,46 @@ nav {
     nav {
         padding: 10px 0px 0px 30px;
     }
+}
+
+@media (max-width: 700px) /*Dispositivos Moviles*/
+{
+    header{
+        flex-direction: column;
+    }
+
+    .perfumesContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+    
+ @media (max-width : 1024px) /*Pantallas pequeñas o laptops*/
+ {
+     header{
+         flex-direction: column;
+     }
+
+    nav a{
+        padding: 3px;
+
+    }
+    .perfumesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    nav{
+        padding-right: 10px;
+    }
+
+    .headerLink
+    {
+        padding-right: 10px;
+    }
+ }
+
+ @media (max-width: 1200px) /*Monitores PC*/
+{
+
 }
