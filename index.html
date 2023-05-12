@@ -1,196 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venta y muestrario de fragancias">
-    <meta name="keywords" content="perfumes, fragancias, aromas">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" href="img/favicon-16x16.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b0a0ec86fc.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Venta y muestrario de fragancias" />
+    <meta name="keywords" content="perfumes, fragancias, aromas" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="shortcut icon" href="img/favicon-16x16.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b0a0ec86fc.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Oly_Fragancias</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-   
-        
-         <nav>
-            <a href="index.html">INICIO</a>
-            <a href="productos.html">PRODUCTOS</a>
-            <a href="preguntas_frecuentes.html">PREGUNTAS FRECUENTES</a>
-            <a href="contacto.html">CONTACTO</a>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-
-        </nav> 
+      <a href="#" class="logo">
+        <img src="./img/logooly.png" alt="logoOly" />
+      </a>
+      <nav>
+        <a href="index.html" class="headerLink">Inicio</a>
+        <a href="#galeriaPerfumes" class="headerLink">Productos</a>
+        <a href="pregFrecuentes.html" class="headerLink">Preguntas frecuentes</a>
+        <a href="contacto.html" class="headerLink">Contacto</a>
+      </nav>
     </header>
-    <section>
-        <ol>
+    
+    <div id="fondoCabecera">
+    </div>
+    <section id = "galeriaPerfumes">
+    <div class="perfumesContainer">
+        <div class="box">
+            <img src="./img/PNG render/1Milion PacoRabanne.png" alt="" class="perfumeImgBox">
+            <div class="nombrePerfume">Bleu de Chanel</div>
+            <div class="marca">Chanel</div>
+            <div class="precio">$15000</div>
+        </div>
 
-            <li>
+        <div class="box">
+            <img src="./img/PNG render/MissDior.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">212</div>
+        </div>
 
+        <div class="box">
+          <img src="./img/PNG Render/N5Channel.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">Allure</div>
+        </div>
 
-                <ul>
-                    <li>
-                        <img src="img/Ellas/allure.PNG" alt="perfume_allure">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>ALLURE</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
+        <div class="box">
+            <img src="./img/PNG Render 2/HugoBoss.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">Moschino</div>
+        </div>
 
+        <div class="box">
+            <img src="./img/PNG Render 2/CocoChanel.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">Égoïste</div>
+        </div>
 
-                <ul>
-                    <li>
-                        <img src="img/Ellas/FAM_EDP1.PNG" alt="perfume_FAM_EDP">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>FAM EDP</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li class="buttons">
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
+        <div class="box">
+            <img src="./img/PNG Render 2/1Milion PacoRabanne.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">clinique happy</div>
+        </div>
 
+        <div class="box">
+            <img src="./img/Ellos/guerlain.PNG" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">L’Homme Ideal Guerlain </div>
+        </div>
 
-                <ul>
-                    <li>
-                        <img src="img/Ellas/cher.PNG" alt="perfume_allure">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>CHER</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li class="buttons">
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-        </ol>
+        <div class="box">
+            <img src="./img/Ellas/coco.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">Coco</div>
+        </div>
 
-        <ol>
-            <li>
+        <div class="box">
+            <img src="./img/Ellas/212vip.png" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">212 VIP</div>
+        </div>
 
-                <ul>
-                    <li>
-                        <img src="img/Ellas/michael_kors.PNG" alt="perfume_MICHAEL_KORS">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>M. KORS</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
+        <div class="box">
+            <img src="./img/Ellos/edp.PNG" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">The One</div>
+        </div>
+
+        <div class="box">
+            <img src="./img/Ellos/terrae.PNG" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">Bvlgari</div>
+        </div>
+
+        <div class="box">
+            <img src="./img/Ellas/one_milion2.PNG" alt ="" class="perfumeImgBox">
+            <div class="nombrePerfume">One Million</div>
+        </div>
 
 
-                <ul>
-                    <li>
-                        <img src="img/Ellas/212vip.PNG" alt="perfume_212_VIP">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>212 VIP</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-
-
-                <ul>
-                    <li>
-                        <img src="img/Ellas/linterdit.PNG" alt="perfume_linterdit">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>LINTERDIT</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-        <ol>
-            <li>
-
-
-                <ul>
-                    <li>
-                        <img src="img/Ellos/bleu.PNG" alt="PERFUME_BLUE">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>BLUE</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-
-
-                <ul>
-                    <li>
-                        <img src="img/Ellos/dissey.PNG" alt="perfume_DISSEY">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>DISSEY</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-
-
-                <ul>
-                    <li>
-                        <img src="img/Ellos/edp.PNG" alt="perfume_EDP">
-                        <i class="fa-regular fa-heart"></i>
-                        <h2>EDP</h2>
-                        <span>150 ml</span>
-                    </li>
-                    <li><span>Precio:$6000</span></li>
-                    <li>
-                        <a href="#comprar" class="btn">COMPRAR</a>
-                    </li>
-                </ul>
-            </li>
-        </ol>
+    </div>
 
     </section>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

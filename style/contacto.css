@@ -25,7 +25,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #FDD1D1;
+    color: gold;
 }
 
 .headerLink{
@@ -42,6 +42,15 @@ nav{
 }
 
 
+@media (max-width : 700px)
+{
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px 0px 30px;
+    }
+}
 
 @media (max-width: 700px) /*Dispositivos Moviles*/
 {
@@ -52,7 +61,6 @@ nav{
     .perfumesContainer{
         grid-template-columns: repeat(2,1fr);
     }
-<<<<<<< HEAD
 
 }
 
@@ -85,6 +93,3 @@ nav{
 {
 
 }
-=======
-}
->>>>>>> 68b7043eeaab9e720ba14fa9e6a69506613cd53f
