@@ -54,6 +54,54 @@ nav{
     display: flex;
     padding-right:200px;
 }
+.container{
+    position: fixed;
+    left: 89.5%;
+    transform: translate(-.7%, -.7%);
+    
+}
+.container input{
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    width: 0;
+    padding: 0 10px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+transition: all .7s ease;
+}
+::placeholder{
+    color: grey;
+}
+.btn{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: #FDD1D1;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn i{
+    font-size: 25px;
+    color: aliceblue;
+    line-height: 80px;
+    transition: all .7 ease;
+}
+.container:hover input{
+    width: 350px;
+}
+.container:hover i{
+    transform:rotate(-360deg);
+}
+.btn:hover{
+    background: #FDD1D1;
+}
 
 .box{
     text-align: center;
