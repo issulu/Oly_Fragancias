@@ -52,7 +52,7 @@ nav a:hover{
 
 nav{
     display: flex;
-    padding-right:200px;
+    
 }
 .container{
     position: fixed;
@@ -134,6 +134,18 @@ transition: all .7s ease;
     background-position: center;
     padding: 35px;
 
+}
+@font-face {
+    font-family: "Marcellus";
+    src: url(../fonts/Marcellus-Regular.ttf);
+}
+#fondoCabecera #cabeceraTitulo{
+    
+    font-family: "Marcellus";
+    white-space: nowrap;
+    margin-left: 30%;
+    margin-top: 10%;
+    
 }
 .nombrePerfume{  /*FALTA DESARROLLAR*/
     
