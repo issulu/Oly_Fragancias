@@ -25,35 +25,39 @@
         </a>
         <nav>
             <a href="index.html" class="headerLink">Inicio</a>
-            <a href="index.html" class="headerLink">Productos</a>
+            <a href="#galeriaPerfumes" class="headerLink">Productos</a>
             <a href="pregFrecuentes.html" class="headerLink">Preguntas frecuentes</a>
             <a href="contacto.html" class="headerLink">Contacto</a>
+            <a href="buscar.html" class="headerLink"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
+            <a href="favoritos.html" class="headerLink"><i class="fa-regular fa-heart" style="color: #000000;"></i></a>
+            <a href="comprar.html" class="headerLink"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a>
         </nav>
     </header>
 
     <div class="container">
         <h1>CONTACTO</h1>
-        <form action="">
+        <form class="formulario" action="https://formspree.io/f/mjvdzgqd"
+        method="POST">
             <p>Complete la información y recibiremos su consulta </p>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="form-group">
                         <label for="name">Nombre<span style="color:#ffa1a1;">&#42;</span></label>
                         <input autofocus type="text" name="nombre_ingresado" id="name" class="form-control "
-                            placeholder="Nombre">
+                            placeholder="Nombre" required>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="form-group">
                         <label for="name">Apellido<span style="color:#ffa1a1;">&#42;</span></label>
                         <input type="text" name="apellido_ingresado" id="name" class="form-control"
-                            placeholder="Apellido">
+                            placeholder="Apellido" required>
                     </div>
                 </div>
             </div>
             <div class="form-group">
                 <label for="email">Correo electr&oacute;nico<span style="color:#ffa1a1;">&#42;</span></label>
-                <input type="text" name="email_ingresado" id="email" placeholder="email@gmail.com" class="form-control">
+                <input type="text" name="email_ingresado" id="email" placeholder="email@gmail.com" class="form-control" required>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
@@ -74,7 +78,7 @@
             <div class="form-group">
                 <label for="email">Descripci&oacute;n de la consulta</label>
                 <textarea col="10" row="15" placeholder="Comenta detalladamente la consulta" class="form-control"
-                    name="" id="" cols="30" rows="5"></textarea>
+                    name="message" id="message" cols="30" rows="5"></textarea>
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar" class="form-control btn btn-light">
@@ -82,7 +86,9 @@
             </div>
 
         </form>
+        
     </div>
+    
 </body>
 
 </html>
