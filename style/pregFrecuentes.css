@@ -33,12 +33,36 @@ nav a:hover{
     color: black;
     padding-right: 90px;
     
-    /*margin-right: 150px;*/
+    
 }
 
 nav{
     display: flex;
     
+}
+.pregunta{
+   
+    border: solid gray 1px;
+}
+.pregunta h1{
+    background-color: #fdf9f9;
+    border-bottom: 2px solid #a19a9a;
+    border-color: #a19a9a;
+    color: #534f4f;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.pregunta h2{
+    
+    text-align: left;
+    padding-left: 20px;
+    margin: 50px 10px;
+}
+.box p{
+   margin: 40px;
+   background-color: #faebeb;
 }
 
 @media (max-width: 700px) /*Dispositivos Moviles*/
