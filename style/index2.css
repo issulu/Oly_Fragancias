@@ -43,9 +43,7 @@ img{
     align-items: center;
     gap: 10px;
 }
-.ellas__nombres>i {
-    text-align:left;
-}
+
 .ellas__button{
   
     text-align: center;
