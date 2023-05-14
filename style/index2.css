@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 5px;
+    color: rgb(97, 96, 96);
+}
+.ellas__descripcion{
+    text-align: center;
+    padding: 25px;
+    color: rgb(53, 53, 53);
+}
+.ellas{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ellas__perfumes{
+    width: 350px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px gray;
+    border: solid #000000 1px;
+    
+
+}
+.ellas__perfumes:hover{
+    border: solid #f8cbdb 2px;
+}
+
+
+img{
+    width: 200px;
+    
+}
+.ellas__nombres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.ellas__nombres>i {
+    text-align:left;
+}
+.ellas__button{
+  
+    text-align: center;
+}
+.enlace{
+    background: #f8cbdb;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+}
