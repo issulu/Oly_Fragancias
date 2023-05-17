@@ -110,6 +110,7 @@ nav{
 /* Footer */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .container {
     max-width: 1200px;
@@ -123,10 +124,18 @@ footer {
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
     background-color: #f8f5f5;
     border: solid 1px;
+=======
+footer {
+    width: 100%;
+    background-color: #f8f5f5;
+    border: solid 1px;
+    margin: 8px 0px 16px 0px;
+>>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
 }
 
 .footer-row {
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +159,8 @@ h3 {
 
 footer p {
 =======
+=======
+>>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -175,12 +186,16 @@ footer p {
 }
 
 .footer-row .row p {
+<<<<<<< HEAD
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
+=======
+>>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
     color: #B8A2A2;
     font-size: 12px;
     margin: 2px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .footerTexto {
     list-style: none;
@@ -198,18 +213,36 @@ footer p {
 .footer-row .row .red-social a {
     display: inline-block;
     text-decoration: none;
+=======
+.footer-row .row .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+>>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
     width: 48px;
     height: 48px;
     line-height: 48px;
     color: #9A8585;
     margin-right: 8px;
     text-align: center;
+<<<<<<< HEAD
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
+=======
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    border: solid 1px;
+    transition: all 300ms ease;
+}
+
+.footer-row .row .red-social a:hover {
+    color: #f8c9c9;
+>>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
 }
 
 .row4{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     padding: 16px;
     color: #443838;
     font-size: 14px;
@@ -218,3 +251,19 @@ footer p {
 =======
 }
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
+=======
+    background-color: #9A8585;
+    padding: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+@media screen and (max-width:800px) {
+    .footer-row {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px; 
+    }
+}
+>>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
