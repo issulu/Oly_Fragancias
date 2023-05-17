@@ -127,6 +127,7 @@ p{
 /* Footer */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .container {
@@ -142,16 +143,22 @@ footer {
     background-color: #f8f5f5;
     border: solid 1px;
 =======
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
 footer {
     width: 100%;
     background-color: #f8f5f5;
     border: solid 1px;
     margin: 8px 0px 16px 0px;
+<<<<<<< HEAD
 >>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
 }
 
 .footer-row {
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     display: flex;
@@ -178,6 +185,8 @@ footer p {
 =======
 =======
 >>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -204,14 +213,18 @@ footer p {
 
 .footer-row .row p {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
 =======
 >>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
     color: #B8A2A2;
     font-size: 12px;
     margin: 2px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 .footerTexto {
@@ -231,11 +244,16 @@ footer p {
     display: inline-block;
     text-decoration: none;
 =======
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
 .footer-row .row .red-social a {
     display: inline-block;
     text-decoration: none;
     font-size: 24px;
+<<<<<<< HEAD
 >>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
     width: 48px;
     height: 48px;
     line-height: 48px;
@@ -243,8 +261,11 @@ footer p {
     margin-right: 8px;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
 =======
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
     background-color: #FFFFFF;
     border-radius: 24px;
     border: solid 1px;
@@ -253,12 +274,16 @@ footer p {
 
 .footer-row .row .red-social a:hover {
     color: #f8c9c9;
+<<<<<<< HEAD
 >>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
 }
 
 .row4{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
     padding: 16px;
     color: #443838;
@@ -269,6 +294,8 @@ footer p {
 
 >>>>>>> 9b120285092d5f984dfa39ae91232e372967e45d
 =======
+=======
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
     background-color: #9A8585;
     padding: 16px;
     color: #FFFFFF;
@@ -282,5 +309,9 @@ footer p {
         grid-gap: 30px;
         padding: 35px 0px; 
     }
+<<<<<<< HEAD
 }
 >>>>>>> ec5982a0f3aa7ddfeab62e56c00fc9b3a2a0d0ab
+=======
+}
+>>>>>>> 3b8b3c1b2f886cd9d20786ca03761e0a1d0203f2
