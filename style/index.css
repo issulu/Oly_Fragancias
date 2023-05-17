@@ -308,6 +308,13 @@ footer {
     font-size: 14px;
 }
 
+#personas ul {
+    color: #B8A2A2;
+    list-style: none; 
+    text-align: left;
+    font-size: 12px;
+    padding: 0; 
+}
 @media screen and (max-width:800px) {
     .footer-row {
         width: 90%;
