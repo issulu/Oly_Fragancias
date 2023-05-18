@@ -315,4 +315,19 @@ footer {
         grid-gap: 30px;
         padding: 35px 0px; 
     }
+<<<<<<< HEAD
+=======
+
+    .perfumesContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    nav{
+        padding: 3px;
+    }
+
+    header nav{
+        margin-left: 70px;
+    }
+>>>>>>> 9f25404f018052f042a381fc244766944bf26e2e
 }
