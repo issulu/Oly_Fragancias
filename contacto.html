@@ -99,10 +99,15 @@
                    <h3>Diseño</h3>
                    <p>Sofía Munno Guariglia</p>
                    <h3>Desarrollo</h3>
-                   <p>Iván</p>
+                   <!--<p>Iván</p>
                    <p>Aissu</p>
                    <p>Lucio</p>
-                   <p>Sofía Munno Guariglia</p>
+                   <p>Sofía Munno Guariglia</p>-->
+                   <div id="personas">
+                     <ul>
+                        <li v-for ="integrante in integrantes">{{integrante}}</li>
+                     </ul>
+                   </div>
                 </div>
             
                 <div class="row">
@@ -134,7 +139,8 @@
         </div>
     
     </footer>
-
-</body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/contacto.js"></script>
+    </body>
 
 </html>

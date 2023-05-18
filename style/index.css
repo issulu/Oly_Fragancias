@@ -4,13 +4,6 @@ body{
     width: 100%;
     line-height:0;
 }
-/*body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-height: 100vh;
-
-}*/
 
 header{
     display: flex;
@@ -228,7 +221,7 @@ nav{
 .enlace{
     background: #f8cbdb;
     padding: 10px;
-    border-radius: 100px;
+    
     text-decoration: none;
     color: black;
 }
@@ -244,7 +237,7 @@ footer {
     width: 100%;
     background-color: #f8f5f5;
     border: solid 1px;
-    margin: 8px 0px 16px 0px;
+    /*margin: 8px 0px 16px 0px;*/
 }
 
 .footer-row {
@@ -334,4 +327,5 @@ footer {
     header nav{
         margin-left: 70px;
     }
+
 }
