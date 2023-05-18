@@ -4,13 +4,13 @@ body{
     width: 100%;
     line-height:0;
 }
-/*body{
+body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     min-height: 100vh;
 
-}*/
+}
 
 header{
     display: flex;
