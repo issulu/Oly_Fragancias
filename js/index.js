@@ -117,3 +117,16 @@ const nombrePerfume12 = document.getElementById("perfume12")
 const precioPerfume12 = document.getElementById("precio12")
 nombrePerfume12.textContent = perfume12.nombre
 precioPerfume12.textContent = perfume12.precio
+
+/*-----------------------------------------------------------------*/ 
+
+
+
+const {createApp} = Vue 
+createApp({
+    data(){
+        return {
+             integrantes : ["Aissa", "Sofía Munno Guariglia", "Lucio", "Ivan Rodriguez"]
+        }
+    }
+}).mount("#personas")
