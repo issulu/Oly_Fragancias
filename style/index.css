@@ -226,10 +226,11 @@ nav{
 }
 /* estilo al icono del boton */
 .enlace{
-    background: #f8cbdb;
-    padding: 10px;
+    
+    padding: 10px 20px;
     text-decoration: none;
     color: black;
+    border: #5B4A4A solid 1px;
 }
 
 .enlace span{
