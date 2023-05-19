@@ -4,6 +4,7 @@ body{
     width: 100%;
     line-height:0;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -39,77 +40,62 @@ nav a:hover{
     color: black;
     padding-right: 90px;
     
-    
+    /*margin-right: 150px;*/
 }
 
 nav{
     display: flex;
     
 }
-.pregunta{
-   
-    border: solid gray 1px;
+
+.container{
+    left: 89.5%;
+    transform: translate(-.7%, -.7%);
+    
 }
-.pregunta h1{
-    background-color: #fdf9f9;
-    border-bottom: 2px solid #a19a9a;
-    border-color: #a19a9a;
-    color: #534f4f;
-    font-size: 30px;
-    /*margin-top: 20px;*/
-    padding: 20px;
+.container input{
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    width: 0;
+    padding: 0 10px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: all .7s ease;
+}
+::placeholder{     
+    color: grey;
+}
+
+.btn{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: #FDD1D1;
+    line-height: 80px;
+    border-radius: 50%;
     text-align: center;
+    cursor: pointer;
+    transition: .5s;
 }
-.pregunta h2{
-    
-    text-align: left;
-    padding-left: 20px;
-    margin: 50px 10px;
+.btn i{
+    font-size: 25px;
+    color: aliceblue;
+    line-height: 80px;
+    transition: all .7 ease;
 }
-.box p{
-   margin: 40px;
-   background-color: #faebeb;
+.container:hover input{
+    width: 350px;
 }
-
-@media (max-width: 700px) /*Dispositivos Moviles*/
-{
-    header{
-        flex-direction: column;
-    }
-
-    .perfumesContainer{
-        grid-template-columns: repeat(2,1fr);
-    }
-
+.container:hover i{
+    transform:rotate(-360deg);
 }
-
-    
- @media (max-width : 1024px) /*Pantallas pequeñas o laptops*/
- {
-     header{
-         flex-direction: column;
-     }
-
-    nav a{
-        padding: 3px;
-
-    }
-    .perfumesContainer{
-        grid-template-columns: repeat(3,1fr);
-    }
-
-    nav{
-        padding-right: 10px;
-    }
-
-    .headerLink
-    {
-        padding-right: 10px;
-    }
- }
-
-
-/* Footer */
+.btn:hover{
+    background: #FDD1D1;
+}
 
 footer {
     width: 100%;
@@ -187,11 +173,58 @@ footer {
     padding: 0; 
 }
 
-@media screen and (max-width:800px) {
+@media (max-width: 700px) /*Dispositivos Moviles*/
+{
+    header{
+        flex-direction: column;
+    }
+
+    .perfumesContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+    
+ @media (max-width : 1024px) /*Pantallas pequeñas o laptops*/
+ {
+     header{
+         flex-direction: column;
+     }
+
+    nav a{
+        padding: 3px;
+
+    }
+
+    nav{
+        padding-right: 10px;
+    }
+
+    .headerLink
+    {
+        padding-right: 10px;
+    }
+ }
+
+ @media screen and (max-width:800px) {
     .footer-row {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px; 
     }
+
+    .perfumesContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    nav{
+        padding: 3px;
+    }
+
+    header nav{
+        margin-left: 70px;
+    }
+
 }

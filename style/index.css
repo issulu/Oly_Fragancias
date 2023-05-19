@@ -4,6 +4,7 @@ body{
     width: 100%;
     line-height:0;
 }
+<<<<<<< HEAD
 body{
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +12,8 @@ body{
     min-height: 100vh;
 
 }
+=======
+>>>>>>> fd9b8a2d7dbc061f318959a2ff09dd9f9e6309b0
 
 header{
     display: flex;
@@ -244,7 +247,7 @@ footer {
     width: 100%;
     background-color: #f8f5f5;
     border: solid 1px;
-    margin: 8px 0px 16px 0px;
+    /*margin: 8px 0px 16px 0px;*/
 }
 
 .footer-row {
@@ -340,7 +343,11 @@ footer {
         margin-left: 70px;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9f25404f018052f042a381fc244766944bf26e2e
 =======
 >>>>>>> c7e097aeba0eb947b76318a70e7dea4e979af6de
+=======
+
+>>>>>>> fd9b8a2d7dbc061f318959a2ff09dd9f9e6309b0
 }
