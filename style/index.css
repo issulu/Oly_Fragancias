@@ -224,15 +224,17 @@ nav{
     padding: 15px;
     color: rgb(53, 53, 53);
 }
-
+/* estilo al icono del boton */
 .enlace{
     background: #f8cbdb;
     padding: 10px;
-    
     text-decoration: none;
     color: black;
 }
 
+.enlace span{
+    margin-right: 10px;
+}
 .container {
     max-width: 1200px;
     margin: 0px auto;
