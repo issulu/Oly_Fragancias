@@ -39,12 +39,12 @@
           </div>
         </nav>
       </header>
+
       <div id = "carritoCompra">
         <div class="box box1">
-            <p>description</p>
             <div id ="perfumesComprados">
               <ul>
-                 <li v-for = "perfume in perfumesComprados"> {{perfume}} </li>
+                 <li v-for = "perfume in perfumesComprados"> <h4>{{perfume}}</h4></li>
               </ul>
             </div>
         </div>
@@ -57,16 +57,69 @@
           <h4>Tarjetas de Debito</h4>
           <img src="./img/tarjetas/mercado pago.png" alt="">
           <h4>Codigo descuento</h4>
-          <input type="text" id="codigoDescuento">
+          <label for="codigoDescuento">(1 solo uso)</label>
+          <input type="text" placeholder="Ingrese codigo" id="codigoDescuento">
+          <button type="submit" id="botonDescuento">Ingresar</button>
         </div>
 
         <div class="box box3">
           <h4 id = "precioFinal"></h4>          
         </div>
         <div class="box box4">
-          <p>comprar</p>
+          <button type="submit" id = "botonComprar">Comprar</button>
         </div>
       </div>
+
+      <footer>
+
+        <div class="footer-container">
+          <div class="footer-row">
+    
+            <div class="row">
+              <h2>EQUIPO</h2>
+              <h3>Diseño</h3>
+              <p>Sofía Munno Guariglia</p>
+              <h3>Desarrollo</h3>
+              <!--<p>Iván</p>
+                     <p>Aissu</p>
+                     <p>Lucio</p>
+                     <p>Sofía Munno Guariglia</p>-->
+              <div id="personas">
+                <ul>
+                  <li v-for="integrante in integrantes">{{integrante}}</li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="row">
+              <h2>REDES SOCIALES</h2>
+              <div class="red-social">
+                <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+              </div>
+            </div>
+    
+            <div class="row">
+              <h2>CONTACTO</h2>
+              <h3>Teléfono</h3>
+              <p>+54 1115487952</p>
+              <h3>Dirección</h3>
+              <p>Calle 123</p>
+              <h3>Mail</h3>
+              <p>oly@gmail.com</p>
+            </div>
+          </div>
+    
+          <div class="row4">
+            <div id="copy">
+              <small>Copyright 2023 © <b>OlyFragancias </b> todos los derechos reservados</small>
+            </div>
+    
+          </div>
+        </div>
+    
+      </footer>
       <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
       <script src="./js/carrito.js"></script>
 </body>
