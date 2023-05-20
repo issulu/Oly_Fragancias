@@ -2,7 +2,7 @@ const {createApp} = Vue
 createApp({
     data(){
         return {
-             integrantes : ["Aissa", "Sofía Munno Guariglia", "Lucio", "Ivan Rodriguez"]
+             integrantes : ["Aissa Galante", "Sofía Munno Guariglia", "Lucio Williams", "Ivan Rodriguez"]
         }
     }
 }).mount("#personas")
