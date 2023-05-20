@@ -129,6 +129,7 @@ nav{
     display: flex;
     width: 100%;
     height: 550px;
+    
     background-image: url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +153,8 @@ nav{
     
 }
 #fondoCabecera #wsp{
-    background-color: #f8c9c9;
+
+    background-color: #f8c9c9a6;
     margin-left: 40%;
     padding: 10px;
     border: 100px;
@@ -224,13 +226,84 @@ nav{
     padding: 15px;
     color: rgb(53, 53, 53);
 }
+            /* crrusel */
+
+#contentItemsCarrusel{
+
+    width: 1330px;
+  
+    height: 500px;
+    overflow: hidden;
+    
+}
+.itemCarrusel{
+   
+    position: relative;
+    height: 100%;
+
+}
+#contentItemsCarrusel img{
+    height: 100%;
+    position: relative;
+  
+    
+}
+.flechasCarrusel a{
+    text-decoration: none;
+
+  
+    padding:250px 200px;
+
+}
+
+
+
+.tarjetaCarrusel{
+
+    height: 100%;
+    text-align: center; 
+   
+      
+}
+
+.flechasCarrusel{
+    
+
+height: 100%;
+position: absolute;
+top: 0;
+width: 100%;
+display: flex;
+text-align: center;
+justify-content: space-between;
+padding: 20px;
+}
+
+#tarjetaCarrusel-1{
+   
+    background-color: rgb (188, 143,143) ;
+
+}
+#tarjetaCarrusel-2{
+   
+    background-color: rgb (188, 143,143) ;
+}
+#tarjetaCarrusel-3{
+   
+    background-color: rgb (188, 143,143) ;
+}
+#tarjetaCarrusel-4{
+    
+    background-color: rgb (188, 143,143) ;
+}
+
 /* estilo al icono del boton */
 .enlace{
     
     padding: 10px 20px;
     text-decoration: none;
     color: black;
-    border: #5B4A4A solid 1px;
+    
 }
 
 .enlace span{
