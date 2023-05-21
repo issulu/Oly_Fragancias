@@ -49,12 +49,12 @@ var perfume10 = {
 }
 
 var perfume11 = {
-    nombre : 'Clinique happy.',
+    nombre : 'Sauvage',
     precio : "AR$ 12000"
 }
 
 var perfume12 = {
-    nombre : 'Dissey',
+    nombre : 'Moschino',
     precio : "AR$ 10700"
 }
 
