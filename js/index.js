@@ -133,13 +133,18 @@ createApp({
 
 /*--------------------------------------------------------------------------*/
 
-primeraImagen = {link:"url(../img/portada.jpg)", orden: 1};
-segundaImagen = {link:"url(../img/carrusel/slider2.png)", orden: 2};
-terceraImagen = {link:"url(../img/carrusel/slider3.png)", orden: 3};
-cuartaImagen = {link:"url(../img/carrusel/slider4.png)", orden: 4};
+imagen1 = {link:"url(../img/portada.jpg)"};
+imagen2 = {link:"url(../img/carrusel/slider1.png)"};
+imagen3 = {link:"url(../img/carrusel/slider1a.png)"};
+imagen4 = {link:"url(../img/carrusel/slider2.png)"};
+imagen5 = {link:"url(../img/carrusel/slider2a.png)"};
+imagen6 = {link:"url(../img/carrusel/slider3.png)"};
+imagen7 = {link:"url(../img/carrusel/slider3a.png)"};
+imagen8 = {link:"url(../img/carrusel/slider4.png)"};
+imagen9 = {link:"url(../img/carrusel/slider4a.png)"};
 var posicionActual = 0
 
-var listadoImagenesSlider = [primeraImagen,segundaImagen,terceraImagen,cuartaImagen];
+var listadoImagenesSlider = [imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,imagen8,imagen9];
 
 var imagenFondo = document.getElementById("imagen");
 imagenFondo.style.backgroundImage = listadoImagenesSlider[posicionActual].link;
