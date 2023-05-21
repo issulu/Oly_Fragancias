@@ -130,3 +130,51 @@ createApp({
         }
     }
 }).mount("#personas")
+
+/*--------------------------------------------------------------------------*/
+
+primeraImagen = {link:"url(../img/portada.jpg)", orden: 1};
+segundaImagen = {link:"url(../img/carrusel/slider2.png)", orden: 2};
+terceraImagen = {link:"url(../img/carrusel/slider3.png)", orden: 3};
+cuartaImagen = {link:"url(../img/carrusel/slider4.png)", orden: 4};
+var posicionActual = 0
+
+var listadoImagenesSlider = [primeraImagen,segundaImagen,terceraImagen,cuartaImagen];
+
+var imagenFondo = document.getElementById("imagen");
+imagenFondo.style.backgroundImage = listadoImagenesSlider[posicionActual].link;
+
+const botonIzquierdo = document.getElementById("flechaDer");
+const botonDerecho = document.getElementById("flechaIzq");
+
+
+
+
+
+botonDerecho.addEventListener("click",()=>{
+    //imagenFondo.style.backgroundImage = fotoIzquierda (posicionActual,listadoImagenesSlider)
+    //console.log(listadoImagenesSlider[posicionActual + 1].link)
+    if(posicionActual < listadoImagenesSlider.length)
+    {
+        posicionActual += 1
+        imagenFondo.style.backgroundImage = listadoImagenesSlider[posicionActual].link
+        console.log(posicionActual)
+    }
+
+})
+
+
+botonIzquierdo.addEventListener("click",()=>{
+    //imagenFondo.style.backgroundImage = fotoIzquierda (posicionActual,listadoImagenesSlider)
+    //console.log(listadoImagenesSlider[posicionActual + 1].link)
+    if(posicionActual > 0)
+    {
+        posicionActual -= 1 
+        imagenFondo.style.backgroundImage = listadoImagenesSlider[posicionActual].link
+        console.log(posicionActual)
+
+    }
+})
+
+
+

@@ -4,13 +4,7 @@ body{
     width: 100%;
     line-height:0;
 }
-body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-height: 100vh;
 
-}
 
 header{
     display: flex;
@@ -59,49 +53,7 @@ nav{
     transform: translate(-.7%, -.7%);
     
 }
-.container input{
-    outline: none;
-    box-sizing: border-box;
-    height: 30px;
-    width: 0;
-    padding: 0 10px;
-    color: black;
-    border-radius: 50px;
-    font-size: 20px;
-    transition: all .7s ease;
-}
-::placeholder{     
-    color: grey;
-}
 
-.btn{
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 80px;
-    height: 80px;
-    background: #FDD1D1;
-    line-height: 80px;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-    transition: .5s;
-}
-.btn i{
-    font-size: 25px;
-    color: aliceblue;
-    line-height: 80px;
-    transition: all .7 ease;
-}
-.container:hover input{
-    width: 350px;
-}
-.container:hover i{
-    transform:rotate(-360deg);
-}
-.btn:hover{
-    background: #FDD1D1;
-}
 
 .box{
     text-align: center;
@@ -129,6 +81,7 @@ nav{
     display: flex;
     width: 100%;
     height: 550px;
+    
     background-image: url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +105,8 @@ nav{
     
 }
 #fondoCabecera #wsp{
-    background-color: #f8c9c9;
+
+    background-color: #f8c9c9a6;
     margin-left: 40%;
     padding: 10px;
     border: 100px;
@@ -174,44 +128,6 @@ nav{
     font-weight: bold;
 }
 
-@media (max-width: 700px) /*Dispositivos Moviles*/
-{
-    header{
-        flex-direction: column;
-    }
-
-    .perfumesContainer{
-        grid-template-columns: repeat(2,1fr);
-    }
-
-}
-
-    
- @media (max-width : 1024px) /*Pantallas pequeñas o laptops*/
- {
-     header{
-         flex-direction: column;
-     }
-
-    nav a{
-        padding: 3px;
-
-    }
-    .perfumesContainer{
-        grid-template-columns: repeat(3,1fr);
-    }
-
-    nav{
-        padding-right: 10px;
-    }
-
-    .headerLink
-    {
-        padding-right: 10px;
-    }
- }
-
-
 .ellas__nombres{
     display: flex;
     flex-direction: column;
@@ -224,13 +140,15 @@ nav{
     padding: 15px;
     color: rgb(53, 53, 53);
 }
+            
+
 /* estilo al icono del boton */
 .enlace{
     
     padding: 10px 20px;
     text-decoration: none;
     color: black;
-    border: #5B4A4A solid 1px;
+    
 }
 
 .enlace span{
@@ -318,6 +236,49 @@ footer {
     font-size: 12px;
     padding: 0; 
 }
+
+
+#slider{
+    display: grid;
+    height: 550px;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+#imagen{
+    /*background-color: hotpink;*/
+    /*background-image: url(../img/portada.jpg);*/
+    grid-column: 1/4;
+    grid-row: 1/4;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35px;
+    justify-content: center;
+}
+
+.flecha.der
+{
+    /*background-color: yellow;*/
+    /*background:rgba(0, 0, 255, 0.45);*/
+    display: flex;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    justify-content: left;
+    padding: 5%;
+    
+
+}
+
+.flecha.izq{
+    grid-column: 3/3;
+    grid-row: 2/2;
+    justify-content: right;
+    display: flex;
+    padding: 5%;
+}
 @media screen and (max-width:800px) {
     .footer-row {
         width: 90%;
@@ -338,4 +299,42 @@ footer {
         margin-left: 70px;
     }
 
+
 }
+
+@media (max-width: 700px) 
+{
+    header{
+        flex-direction: column;
+    }
+
+    .perfumesContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+    
+ @media (max-width : 1024px) 
+ {
+     header{
+         flex-direction: column;
+     }
+
+    nav a{
+        padding: 3px;
+
+    }
+    .perfumesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    nav{
+        padding-right: 10px;
+    }
+
+    .headerLink
+    {
+        padding-right: 10px;
+    }
+ }
