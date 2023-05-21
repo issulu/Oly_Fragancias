@@ -47,7 +47,6 @@ nav a:hover{
     color: black;
     padding-right: 90px;
     
-    /*margin-right: 150px;*/
 }
 
 nav{
@@ -148,8 +147,7 @@ nav{
     font-family: "Marcellus";
     white-space: nowrap;
     margin-top: 200px;
-    /*margin-left: 29%;
-    margin-top: 15%;*/
+  
     
 }
 #fondoCabecera #wsp{
@@ -304,7 +302,7 @@ footer {
     width: 100%;
     background-color: #f8f5f5;
     border: solid 1px;
-    /*margin: 8px 0px 16px 0px;*/
+    
 }
 
 .footer-row {
