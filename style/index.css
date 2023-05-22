@@ -160,6 +160,17 @@ nav{
     margin: 0px auto;
 }
 
+
+.ellas__nombres img{
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+.ellas__nombres img:hover
+{
+    transform: scale(1.2);
+}
 /* Footer */
 
 footer {
@@ -337,12 +348,18 @@ footer {
         grid-template-columns: repeat(1,1fr);
     }
 
+    .headerLink{
+        padding: 10px ;
+    }
+
 }
 
     
  @media (max-width : 1024px) 
  {
-    
+    header{
+        flex-direction: column;
+    }
 
     nav a{
         padding: 3px;
@@ -353,7 +370,10 @@ footer {
         padding-right: 10px;
     }
 
-    
+    .headerLink
+    {
+        padding-right: 10px;
+    }
 
     
  }

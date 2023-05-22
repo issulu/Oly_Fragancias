@@ -75,6 +75,7 @@ nav{
     padding-left: 20px;
     margin: 50px 10px;
 }
+
 .box p{
    margin: 40px;
    background-color: #faebeb;
@@ -139,6 +140,7 @@ footer {
 
 .footer-row .row {
     margin: 24px 80px 24px 80px;
+    
 }   
 
 .footer-row .row h2 {
