@@ -336,12 +336,18 @@ footer {
         grid-template-columns: repeat(1,1fr);
     }
 
+    .headerLink{
+        padding: 10px ;
+    }
+
 }
 
     
  @media (max-width : 1024px) 
  {
-    
+    header{
+        flex-direction: column;
+    }
 
     nav a{
         padding: 3px;
@@ -352,7 +358,10 @@ footer {
         padding-right: 10px;
     }
 
-    
+    .headerLink
+    {
+        padding-right: 10px;
+    }
 
     
  }
