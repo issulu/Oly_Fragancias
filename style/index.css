@@ -159,6 +159,17 @@ nav{
     margin: 0px auto;
 }
 
+
+.ellas__nombres img{
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+.ellas__nombres img:hover
+{
+    transform: scale(1.2);
+}
 /* Footer */
 
 footer {
