@@ -1,3 +1,6 @@
+*{
+    font-family: Arimo;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -91,8 +94,8 @@ nav{
 
 }
 @font-face {
-    font-family: "Marcellus";
-    src: url(../fonts/Marcellus-Regular.ttf);
+    font-family: "Arimo";
+    src: url(../fonts/Arimo-Regular.ttf);
 }
 #fondoCabecera #cabeceraTitulo{
     
@@ -244,8 +247,6 @@ footer {
 }
 
 #imagen{
-    /*background-color: hotpink;*/
-    /*background-image: url(../img/portada.jpg);*/
     grid-column: 1/4;
     grid-row: 1/4;
 
@@ -258,8 +259,6 @@ footer {
 
 .flecha.der
 {
-    /*background-color: yellow;*/
-    /*background:rgba(0, 0, 255, 0.45);*/
     display: flex;
     grid-column: 1/1;
     grid-row: 2/2;
@@ -313,7 +312,7 @@ footer {
     }
 
     .perfumesContainer{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
 
     nav{
@@ -323,18 +322,18 @@ footer {
     header nav{
         margin-left: 70px;
     }
-
-
-}
-
-@media (max-width: 700px) 
-{
     header{
         flex-direction: column;
     }
 
+
+}
+
+@media screen and (max-width: 700px) 
+{
+    
     .perfumesContainer{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
 
 }
@@ -342,24 +341,20 @@ footer {
     
  @media (max-width : 1024px) 
  {
-     header{
-         flex-direction: column;
-     }
+    
 
     nav a{
         padding: 3px;
 
-    }
-    .perfumesContainer{
-        grid-template-columns: repeat(3,1fr);
     }
 
     nav{
         padding-right: 10px;
     }
 
-    .headerLink
-    {
-        padding-right: 10px;
-    }
+    
+
+    
  }
+
+
