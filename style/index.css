@@ -117,9 +117,10 @@ nav{
 }
 
 .ellas__button{
-  
+    border: #5B4A4A 1px solid;
     text-align: center;
-    padding-bottom: 15px;
+    padding: 20px;
+    margin: 40px;
 }
 .box:hover{
     border: solid #f8cbdb 2px;
@@ -147,12 +148,12 @@ nav{
     padding: 10px 20px;
     text-decoration: none;
     color: black;
-    
+   
 }
 
 .enlace span{
     margin-right: 10px;
-  
+   
 }
 .container {
     max-width: 1200px;
